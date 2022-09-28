@@ -1,6 +1,6 @@
 import { addEvents } from "./index.js"
 
-const homeLoad = () => {
+const menuLoad = () => {
     let container = document.querySelector(".content")
 
     //create div for title
@@ -29,13 +29,14 @@ const homeLoad = () => {
     let infobox = document.createElement("div")
     infobox.classList.add("infobox")
     let infobox_div = document.createElement("div")
-    infobox_div.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam luctus libero in justo laoreet, at varius dui ultrices. Morbi at magna ullamcorper, condimentum mauris eget, fermentum augue..."
+    infobox_div.textContent = "Menu info"
     infobox.append(infobox_div)
     mainContent.append(infobox)
 
     container.append(title,topbar,mainContent)
 
     addEvents()
+
 }
 
-export {homeLoad}
+export {menuLoad}

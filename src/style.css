@@ -49,35 +49,60 @@ table {
 
 .content{
     display: grid;
-    grid-template-rows: 13vh 7vh 80vh;
+    grid-template-rows: 10vh 5vh 85vh;
+    background: url("./burger-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
 .title{
-    background-color: blueviolet;
+    background-color: rgba(0, 0, 0, 0.432);
+    font-size: 45px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .topbar{
     display: grid;
     grid-template-columns: 200px 200px 200px;
-    height: 10vh;
-    background-color: green;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.432);
+    
     gap: 100px;
     justify-content: center;
 }
 
 .topbar div{
-    background-color: red;
+    display: grid;
+    text-align: center;
+    color: white;
+    align-content: center;
+    border-bottom-color: rgb(172, 131, 42);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
 }
 
 .mainContent{
-    background-color: yellow;
+    
     display: grid;
     justify-content: center;
     align-items: center;
 }
 
 .infobox{
+    display: grid;
     width: 800px;
-    height: 800px;
-    background-color: aqua;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.541);
+    justify-content: center;
+    align-content: center;
+}
+
+.infobox div{
+    font-size: 38px;
+    color: white;
+    text-align: center;
+    line-height: 110%;
+    padding: 50px;
 }
